@@ -1,0 +1,28 @@
+{% extends 'portal/base.html' %}
+
+{% block title %}Home | CCS Student Portal{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <h1>Welcome to the CCS Student Portal</h1>
+    <p class="lead">Your centralized hub for department announcements, academic schedules, and student learning resources.</p>
+</section>
+
+<section class="features" aria-labelledby="features-heading">
+    <h2 id="features-heading">Portal Features</h2>
+    <div class="card-grid">
+        <article class="card">
+            <h3>Department Announcements</h3>
+            <p>Stay updated on enrollment dates, laboratory schedules, and campus tech events.</p>
+        </article>
+        <article class="card">
+            <h3>Class &amp; Lab Schedules</h3>
+            <p>View room assignments, laboratory hours, and instructor consultation slots.</p>
+        </article>
+        <article class="card">
+            <h3>Academic Resources</h3>
+            <p>Access syllabus copies, Python coding guides, and downloadable laboratory templates.</p>
+        </article>
+    </div>
+</section>
+{% endblock %}
